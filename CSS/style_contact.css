@@ -1,0 +1,116 @@
+body{
+    width: 100%;
+    background-color: #333;
+    margin:0;
+    font-family: 'Times New Roman', Times, serif;
+}
+.container{
+	width: 100%;
+	margin:auto;
+	overflow:hidden;
+
+}
+#contact_header{
+    text-align: center;
+    background-image: url('../image/contact_header_bg.png');
+    background-position: center;
+   
+    color:white;
+    min-height:65px;
+    
+    width:100%
+    
+}
+
+#contact_section{
+    
+    background-color: darkgrey;
+    width:100%
+}
+
+#contact_section table{
+    line-height: 30px;
+    padding: 10px 400px;
+    box-sizing: border-box;
+}
+
+#contact_section td{
+    padding:0px 30px;
+}
+
+
+
+
+
+
+
+
+
+
+.my-form{
+    padding:20px;
+    margin:0% 30%;
+}
+
+.my-form .form-group{s
+	padding-bottom:30px;
+
+}
+
+.my-form label{
+    display:block;
+    color:#fff;
+    font-size: 20px;
+    margin-top: 10px;
+
+}
+
+.my-form input[type="text"], .my-form textarea{
+	padding:8px;
+	width:50%;
+}
+.my-form h3{
+    color:#FFF;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.button{
+    background-color:#14b5e6;
+    color:#FFF;
+    margin:5px 110px;
+    padding:10px 30px;
+    border-color:rgb(0, 0, 0);
+    
+    Text-decoration: none;
+    font-family: serif;
+    font-size:15px;
+    color:#34302f;
+    font-weight: bolder;
+}
+
+#main-footer{
+	background:#333;
+	color:#fff;
+	text-align: center;
+	padding:20px;
+	margin-top: 40px;
+    width:100%;
+    position: fixed;
+    bottom:0;
+	
+}
+
+.error {
+    background: orangered;
+    color: #fff;
+    padding: 5px;
+    margin: 5px;
+  }
+
+
+  .bg-day {
+    background: #FFF;
+    color: #333;
+  }
