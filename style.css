@@ -1,0 +1,158 @@
+body{
+    background-color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    line-height: 2em;
+    margin:0;
+    height:1000px;
+
+}
+.container{
+    width: 80%;
+    margin: auto;
+    overflow:hidden;
+}
+
+#main-header{
+height:60px;
+text-align: center;
+background-color:rgb(0, 0, 0);
+width: 100%;
+
+color: rgb(199, 224, 244);
+position: fixed;
+}
+
+#main-nav{
+    width: 100%;
+    
+   
+    background-color:#34302f;
+
+    position: fixed;
+    top:60px;
+
+
+}
+
+#main-nav ul{
+    padding:0;
+    list-style: none;
+    
+
+}
+
+
+
+#main-nav li{
+    display: inline;
+    
+
+
+}
+
+
+#main-nav a{
+	color:#FFF;
+	text-decoration: none;
+    font-size: 18px;
+    padding:30px;
+
+
+}
+
+#main-nav a:hover{
+    background-color: brown;
+
+}
+
+#main-intro{
+    background-image:url('../image/intro-background.jpg');
+    background-position: center ;
+    background-repeat: initial;
+    min-height 250px; 
+    margin-top, margin-bottom: 40px;
+    text-align: center;
+    font-size:50px;
+    line-height:65px;
+    color:#D36C6C;
+    font-style:italic;
+    position: static;
+    
+
+}
+
+#main-intro h2{
+    font-size:60px;
+    font-style: initial;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.link-btn{
+    background-color:#f2b15b;
+    color:#FFF;
+    padding:10px 60px;
+    border-color:rgb(0, 0, 0);
+    border-radius: 1000em;
+    Text-decoration: none;
+    font-family: serif;
+    font-size:25px;
+    color:#34302f;
+    font-weight: bolder;
+    
+    
+    
+}
+
+
+#main-section{
+   
+    float:left;
+    width:80%;
+    text-align: center;
+    font-size:25px;
+    box-sizing: border-box;
+    min-height: 700px;
+    margin:0;
+    padding: 0 30px;
+    color:#FFF;
+    position: static;
+    
+}
+
+#sidebar{
+	float:right;
+	width:20%;
+	background: #333;
+	color:#fff;
+	padding:10px;
+    box-sizing: border-box;
+    min-height: 700px;
+    text-align: center;
+    position: static;
+}
+
+#sidebar img{
+    width: 150px;
+    height:180px;
+
+}
+
+#main-footer{
+	background:#333;
+	color:#fff;
+	text-align: center;
+	padding:20px;
+	margin-top: 40px;
+	width:100%;
+	
+}
+
+.clr{
+    clean:both;
+
+}
+
+#aboutme{
+    color:white;
+}
